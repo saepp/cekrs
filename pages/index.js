@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
+import Search from "../components/Search";
 
 export default function Home() {
   return (
@@ -9,16 +11,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="mx-auto flex h-screen max-w-screen-md items-center justify-center">
-        <div className="flex flex-col">
-          <h1 className="text-center text-5xl font-bold">
-            Cek Ketersediaan Tempat Tidur Rumah Sakit
-          </h1>
-          <div className="mt-4 w-full border-t border-black/20"></div>
-        </div>
-        <div className="">
+      <div className="mx-auto my-auto flex h-screen max-w-screen-md flex-col items-center justify-center">
+        <h1 className="text-center text-5xl font-bold">
+          Cek Ketersediaan Tempat Tidur Rumah Sakit
+        </h1>
+        <div className="mt-4 mb-1 w-full border-t border-black/20"></div>
+        <div className="flex w-full">
           <Search />
         </div>
+        <Footer />
       </div>
     </div>
   );
