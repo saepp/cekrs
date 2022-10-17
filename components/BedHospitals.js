@@ -3,7 +3,7 @@ import { FaBed, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 
 const BedHospitals = () => {
   return (
-    <div className="mt-1 h-[172px] w-full rounded-md border border-black">
+    <div className="mt-1 mb-2 h-[172px] w-full rounded-md border border-black">
       <div className="flex">
         <div className="ml-4 mt-3 flex flex-col justify-start">
           <p className="mt-1 text-lg font-bold">

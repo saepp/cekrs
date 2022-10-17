@@ -4,8 +4,8 @@ import BedHospitals from "../components/BedHospitals";
 
 const Hospital = () => {
   return (
-    <div className="mx-auto my-auto flex h-screen max-w-screen-md flex-col justify-center">
-      <div className="">
+    <div className="mx-auto flex max-w-screen-md flex-col justify-center">
+      <div className="mt-4">
         <h1 className="text-center text-5xl font-bold">Daftar Rumah Sakit</h1>
         <div className="mb-2 mt-4 w-full border-t border-black/20"></div>
         <button
@@ -15,6 +15,10 @@ const Hospital = () => {
           <FaArrowLeft className="mr-2" /> Kembali Ke Pencarian
         </button>
       </div>
+      <BedHospitals />
+      <BedHospitals />
+      <BedHospitals />
+      <BedHospitals />
       <BedHospitals />
     </div>
   );
